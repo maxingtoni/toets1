@@ -17,6 +17,10 @@
         </footer>
     </body>
     <script>
+            window.ondblclick=Background_change_color_dbl;
+
+function Background_change_color_dbl()
+{document.body.style.backgroundColor="white"}
        function chBackcolor(color) {
             document.body.style.background = color;
             window.localStorage.setItem('backgroundColor', color);
